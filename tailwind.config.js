@@ -4,9 +4,10 @@ export default {
   content: ["./index.html","./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      primary: 'Orbitron',
-      secondary: 'Rajdhani',
-      tertiary: 'Aldrich',
+      primary: 'Righteous',
+      secondary: 'Poppins',
+      tertiary: 'Orbitron',
+      quaternary: 'Rajdhani'
     },
     container: {
       padding: {

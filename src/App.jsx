@@ -1,6 +1,6 @@
 import { useState } from 'react'  
 import Header from './components/Header'
-import Nav from './components/Nav'
+import Banner from './components/Banner'
 import About from './components/About'
 import Services from './components/Services'
 import Projects from './components/Projects'
@@ -11,6 +11,7 @@ function App() {
   return (
     <div className='max-w-[1440px] mx-auto overflow-hidden relative'>
       <Header/>
+      <Banner/>
       <About/>
       <Services/>
       <Projects/>

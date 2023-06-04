@@ -15,11 +15,6 @@ function NavMobile({navMobile}) {
 					)
 				})}
 			</ul>
-			{/* buttons */}
-			<div className='-mt-44 flex justify-center gap-x-8'>
-				<button className='btn btn-lg text-white'>Login</button>
-				<button className='btn btn-lg btn-primary'>Sign Up</button>
-			</div>
 		</nav>
 	)
 }
