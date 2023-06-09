@@ -1,7 +1,8 @@
 import React from 'react';
 
 // import data
-import { nav } from '../data';
+import { nav } from '../helpers/data';
+import { Link } from 'react-scroll';
 
 const Nav = () => {
 	return (
@@ -10,8 +11,8 @@ const Nav = () => {
 				{nav.map((item,idx)=>{
 					return (
 					<li key={idx}>
-						<a className='hover:text-accent transition' href={item.href}>{item.name}</a>
-						</li>
+						<Link className='hover:text-accent transition cursor-pointer' to={item.to}>{item.name}</Link>
+					</li>
 					);
 					})}
 			</ul>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from 'react'
 //import header data
-import { header } from '../data'
+import { header } from '../helpers/data'
 
 //import components
 import Nav from './Nav'
@@ -22,7 +22,7 @@ function Header() {
 	//destructure header data
 	const {logo,btnWorkWme} = header
 	return (
-	<header className={`${isActive ? 'bg-transparent py-[16px] ':' bg-transparent py-[20px] '} fixed max-w-[1440px] z-30 left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] transition-all duration-300`}>
+	<header className={`${isActive ? 'bg-white py-[16px] ':' bg-transparent py-[20px] '} fixed max-w-[1440px] z-30 left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] transition-all duration-300`}>
 		{/* Logo */}
 		<a href="">
 			<img className='h-[40px]' src={logo} alt="" />
