@@ -22,7 +22,7 @@ function Header() {
 	//destructure header data
 	const {logo,btnWorkWme} = header
 	return (
-	<header className={`${isActive ? 'bg-white py-[16px] ':' bg-transparent py-[20px] '} fixed max-w-[1440px] z-30 left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] transition-all duration-300`}>
+	<header className={`${isActive ? 'bg-white/60 backdrop-blur-[4px] py-[16px] ':' bg-white py-[20px] '} fixed max-w-[1440px] z-30 left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] transition-all duration-300`}>
 		{/* Logo */}
 		<a href="">
 			<img className='h-[40px]' src={logo} alt="" />
@@ -38,7 +38,7 @@ function Header() {
 		<div onClick={()=>setNavMobile(!navMobile)} className='lg:hidden abosolute right-4 top-0'>
 			{ 
 			navMobile?
-			(<RiCloseFill className='text-accent text-3xl cursor-pointer'/> ):
+			(<RiCloseFill className='text-white text-3xl cursor-pointer'/> ):
 			(<RiMenu4Fill className='text-accent text-3xl cursor-pointer'/>) 
 			}
 		</div>

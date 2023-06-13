@@ -11,7 +11,7 @@ const Nav = () => {
 				{nav.map((item,idx)=>{
 					return (
 					<li key={idx}>
-						<Link className='hover:text-accent transition cursor-pointer' to={item.to}>{item.name}</Link>
+						<Link className='hover:text-accent transition-all cursor-pointer' to={item.to}>{item.name}</Link>
 					</li>
 					);
 					})}

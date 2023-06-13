@@ -6,8 +6,8 @@ import {TypeAnimation } from 'react-type-animation'
 
 function Banner() {
 	return (
-	<section className='min-h-[85vh] lg:min-h-[78vh] flex justify-around pt-36' id='home'>
-		<div className="container">
+	<section className='min-h-[85vh] lg:min-h-[78vh] flex justify-around pt-[9em]' id='home'>
+		<div>
 			<div className="flex flex-col lg:flex-row lg:items-center ">
 				{/* img */}
 				<div className="hidden lg:flex max-w-[320px} lg:max-w-[482px] ">
@@ -43,6 +43,12 @@ function Banner() {
 				className='mb-8 max-w-lg mx-auto lg:mx-0' 
 				>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, praesentium iste tempore esse rerum.
+				</p>
+				<p 
+				className='mb-8 max-w-lg mx-auto lg:mx-0'
+				>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Harum, praesentium iste tempore esse rerum.
 				</p>
 				<div className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
 					<button className='btn btn-lg'>Download CV</button>
