@@ -1,8 +1,11 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 //type animation
 import {TypeAnimation } from 'react-type-animation'
 
+// CV
+import cv from "../utils/cv/curriculum-jose-duran.pdf";
 
 function Banner() {
 	return (
@@ -51,8 +54,8 @@ function Banner() {
 					Harum, praesentium iste tempore esse rerum.
 				</p>
 				<div className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-					<button className='btn btn-lg'>Download CV</button>
-					<a href="" className='text-gradient btn-link'>Contact me</a>
+					<a className='btn btn-lg flex items-center' href={cv}>Download CV</a>
+					<Link to='contact' className='text-gradient btn-link cursor-pointer'>Contact me</Link>
 				</div>
 				{/* resume skills */}
 
