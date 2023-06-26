@@ -8,7 +8,7 @@ function Projects() {
 	<section className='section mx-auto lg:pt-48 lg:mx-40' id='projects'>
 		<div className="container mx-auto">
 			<div className='flex flex-col lg:flex-row gap-x-10'>
-				<div className='flex-1 flex flex-col gap-y-10 mb-10 lg:mb-0'>
+				<div className='flex-1 flex flex-col gap-y-10 mb-1	0 lg:mb-0'>
 					{/* text */}
 					<div>
 						<h2 className='h2 leading-tight text-accent py-6'>
