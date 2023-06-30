@@ -10,12 +10,12 @@ function Projects() {
 			<div className='flex flex-col lg:flex-row gap-x-10'>
 				<div className='flex-1 flex flex-col gap-y-10 mb-1	0 lg:mb-0'>
 					{/* text */}
-					<div>
-						<h2 className='h2 leading-tight text-accent py-6'>
+					<div className='justify-center'>
+						<h2 className='h2 leading-tight text-accent py-6 lg:text-start sm:text-center'>
 							Mis <br/>
 							Proyectos
 						</h2>
-						<p className='max-w-sm mb-16'>
+						<p className='lg:max-w-sm lg:text-start sm:text-center mb-16'>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
 							Repellat, hic! Harum quis, cum velit neque esse eos molestias
 							doloremque explicabo!
@@ -28,7 +28,7 @@ function Projects() {
 								<div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'>
 								</div>
 								{/* img */}
-								<img className='group-hover:scale-125 transition-all duration-500' src={item.img} alt=''/>
+								<img loading='lazy' className='group-hover:scale-125 transition-all duration-500' src={item.img} alt=''/>
 								{/* title */}
 								<div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
 									<span className='text-2xl text-gradient'>{item.title}</span>

@@ -5,9 +5,13 @@ import {HiCode} from 'react-icons/hi';
 import {MdOutlineDesignServices,MdOutlineRocketLaunch} from 'react-icons/md';
 
 //images
-import Img1 from '../assets/img/work/portfolio-img1.png'
-import Img2 from '../assets/img/work/portfolio-img2.png'
-import Img3 from '../assets/img/work/portfolio-img3.png'
+import Img1 from '../assets/img/work/portfolio-img1.png';
+import Img2 from '../assets/img/work/portfolio-img2.png';
+import Img3 from '../assets/img/work/portfolio-img3.png';
+
+//social icons
+import {SlSocialLinkedin,SlSocialTwitter} from 'react-icons/sl';
+import {VscGithub} from 'react-icons/vsc';
 
 export const header={
 	logo:Logo,
@@ -59,4 +63,23 @@ export const worksecond=[
 		title:'Dielecpro Website',
 		desciption:'UI/UX Design'
 	}
+]
+
+export const social=[
+	{
+		name: 'GitHub',
+		icon: VscGithub,
+		href: 'https://github.com/wizard503'
+	},
+	{
+		name: 'LinkedIn',
+		icon: SlSocialLinkedin,
+		href: 'https://www.linkedin.com/in/jose-duran-dev/'
+	},
+	{
+		name: 'GitHub',
+		icon: SlSocialTwitter,
+		href: 'https://twitter.com/josemdg12'
+	}
+
 ]

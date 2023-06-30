@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
 	return (
-	<div className='pt-20 lg:section mt-[40vh]' id='contact'>
+	<div className='section lg:pt-[12rem] lg:mt-[10vh] sm:pt-[10rem]' id='contact'>
 		<div className='container mx-auto lg:mx-40'>
 			<div className='flex flex-col lg:flex-row'>
 				{/* text */}
