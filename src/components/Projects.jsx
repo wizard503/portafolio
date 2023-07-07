@@ -11,7 +11,7 @@ function Projects() {
 				<div className='flex-1 flex flex-col gap-y-10 mb-1	0 lg:mb-0'>
 					{/* text */}
 					<div className='justify-center'>
-						<h2 className='h2 leading-tight text-accent py-6 lg:text-start sm:text-center'>
+						<h2 className='h2 leading-tight text-accent py-5 lg:text-start sm:text-center'>
 							Mis <br/>
 							Proyectos
 						</h2>

@@ -18,10 +18,11 @@ export default {
       },
     },
     screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '960px',
-      xl: '1200px',
+      xs: '370px',
+      sm: '480px',
+      md: '640px',
+      lg: '768px',
+      xl: '1024px',
     },
     extend: {
       colors: {

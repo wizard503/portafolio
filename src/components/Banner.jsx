@@ -13,7 +13,7 @@ function Banner() {
 		<div>
 			<div className="flex flex-col lg:flex-row lg:items-center ">
 				{/* img */}
-				<div className="hidden lg:flex max-w-[320px} lg:max-w-[482px] ">
+				<div className="hidden lg:flex max-w-[320px] lg:max-w-[482px] ">
 					<div className='bg-gradient-to-r from-fuchsia-500 to-pink-500/0 opacity-[66%] -rotate-45 w-[60vh] h-[60vh] rounded-full left-0 bottom-0'>
 					</div>
 				</div>
@@ -42,17 +42,14 @@ function Banner() {
 					/>
 				</div>
 				{/* description */}
-				<p 
-				className='mb-8 max-w-lg mx-auto lg:mx-0' 
-				>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, praesentium iste tempore esse rerum.
-				</p>
-				<p 
-				className='mb-8 max-w-lg mx-auto lg:mx-0'
-				>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Harum, praesentium iste tempore esse rerum.
-				</p>
+				<div className='xs:px-5'>
+					<p className='mb-8 max-w-lg mx-auto lg:mx-0' >
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, praesentium iste tempore esse rerum.
+					</p>
+					<p className='mb-8 max-w-lg mx-auto lg:mx-0'>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.Harum, praesentium iste tempore esse rerum.
+					</p>
+				</div>
 				<div className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
 					<a className='btn btn-lg flex items-center' href={cv}>Download CV</a>
 					<Link to='contact' className='text-gradient btn-link cursor-pointer'>Contact me</Link>

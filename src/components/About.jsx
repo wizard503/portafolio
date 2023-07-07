@@ -14,28 +14,28 @@ function About() {
 	})
 	return (
 	<section className='section max-w-7xl pt-40' id='about' ref={ref}>
-		<div className="mx-auto sm:px-10">
+		<div className="mx-auto xs:px-4">
 			<div className="flex flex-col gap-y-10 lg:flex-row">
 				{/* img */}
 				<div className='flex-1 bg-about bg-contain bg-no-repeat h-[440px] mix-blend-lighten bg-top'></div>
 				{/* text */}
-				<div className='flex-1 lg:text-left md:text-center sm:text-center'>
+				<div className='flex-1 lg:text-left xs:text-center sm:text-center'>
 					<h2 className='h2 text-accent'>
 						Acerca de mi
 					</h2>
 					<h3 className='h3 mb-4'>
 						Hola 👋
 					</h3>
-					<p className='p mb-6 '>
+					<p className='p mb-6'>
 						Soy Ingeniero de Sistemas y me dedico al desarrollo web, poseo experiencia en desarrollo frontend y diseño de interfaces de usuario, amante del diseño, me apasiona la tecnología y la programación.
 					</p>
 					{/* stats */}
-					<div className='flex gap-x-6 lg:gap-x-10 mb-12 lg:justify-normal md:justify-center sm:justify-center'>
+					<div className='flex gap-x-6 lg:gap-x-10 mb-12 lg:justify-normal md:justify-center xs:gap-x-3 xs:justify-center'>
 						<div>
 							<div className='text-[40px] font-tertiary text-gradient py-2'>
 								{inView ? <CountUp start={0} end={1} duration={5}/>:null}
 								</div>
-								<div  className='font-primary text-sm tracking-[2px]'>
+								<div  className='font-primary text-sm xs:text-xs tracking-[2px]'>
 									Años de <br/>
 									Experiencia
 								</div>
@@ -44,7 +44,7 @@ function About() {
 							<div className='text-[40px] font-tertiary text-gradient py-2'>
 								{inView ? <CountUp start={0} end={4} duration={5}/>:null}
 								</div>
-								<div  className='font-primary text-sm tracking-[2px]'>
+								<div  className='font-primary text-sm xs:text-xs tracking-[2px]'>
 									Proyectos<br/>
 									Realizados
 								</div>
@@ -53,7 +53,7 @@ function About() {
 							<div className='text-[40px] font-tertiary text-gradient py-2'>
 								{inView ? <CountUp start={0} end={4} duration={5}/>:null}
 								</div>
-								<div  className='font-primary text-sm tracking-[2px]'>
+								<div  className='font-primary text-sm xs:text-xs tracking-[2px]'>
 									Sitios Desplegados<br/>
 									Completamente
 								</div>
