@@ -28,19 +28,19 @@ export const nav=[
 
 export const services=[
 	{
-		title:'Development',
+		title:'Desarrollo',
 		icon:HiCode,
 		desciption:'Sitios web creados para fortalecer la marca de su empresa al tiempo que garantiza la facilidad de uso y la simplicidad para su audiencia brindando una experiencia optima que logre sus objetivos comerciales.'
 	},
 	{
-		title:'Diseño Creativo',
-		icon:MdOutlineDesignServices,
-		desciption:'Conozco la importancia del diseño web y puedo ayudarte a crear un sitio web que te encantará.'
+		title:'Mantenimiento y optimizacion',
+		icon:MdOutlineRocketLaunch,
+		desciption:'Porque un buen sitio no basta, se debe optimizar el tiempo de carga, la eficiencia del código y la experiencia del usuario. Ademas se debe mantener sus sitios web y aplicaciones actualizados'
 	},
 	{
-		title:'Design Research',
-		icon:MdOutlineRocketLaunch,
-		desciption:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis numquam, alias laborum eaque natus dolor totam perspiciatis adipisci ipsum rem amet nobis commodi placeat!'
+		title:'Diseño Creativo',
+		icon:MdOutlineDesignServices,
+		desciption:'Conozco la importancia del diseño web y puedo ayudarte a crear un sitio web que te encantará, capaz de adaptarse a todos tus dispositivos.'
 	},
 ]
 

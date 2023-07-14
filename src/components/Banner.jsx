@@ -44,11 +44,9 @@ function Banner() {
 				{/* description */}
 				<div className='xs:px-5'>
 					<p className='mb-8 max-w-lg mx-auto lg:mx-0' >
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, praesentium iste tempore esse rerum.
+					Soy Ingeniero de Sistemas y me dedico al desarrollo web, poseo experiencia en desarrollo frontend y diseño de interfaces de usuario, me apasiona la tecnología y la programación.
 					</p>
-					<p className='mb-8 max-w-lg mx-auto lg:mx-0'>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.Harum, praesentium iste tempore esse rerum.
-					</p>
+					<br />
 				</div>
 				<div className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
 					<a className='btn btn-lg flex items-center' href={cv}>Download CV</a>

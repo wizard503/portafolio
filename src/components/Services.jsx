@@ -13,14 +13,14 @@ function Services() {
 		<section className="lg:pt-20" id='services'>
 			<div className="max-w-6xl mx-auto px-5 py-2 ">
 				<div className="text-center ">
-					<h2 className="h2 mb-4 text-accent">Specializing in</h2>
-					<p className="p xl:w-2/4 lg:w-3/4 mx-auto">L'informatique est vaste et les langages naissent presque à tout moment, je fais tout mon possible pour être à la hauteur afin de répondre au besoin de mes clients et d'apporter de l'aide aux nouveaux développeurs.</p>
+					<h2 className="h2 mb-4 text-accent">Mis Servicios</h2>
+					<p className="p xl:w-4/4 lg:w-3/4 mx-auto">Ofrezco soluciones digitales personalizadas que combinan funcionalidad y diseño atractivo. A través de mi experiencia en desarrollo frontend y diseño de interfaces de usuario, puedo ayudarte a destacar en línea. Explora mis servicios a continuación y contáctame para discutir cómo puedo ayudarte</p>
 					<div className="flex mt-6 justify-center">
 						<div className="w-16 h-1 rounded-full gradient inline-flex">
 						</div>
 					</div>
 				</div>
-				<div className="flex justify-center items-center flex-wrap p-[10px] min-h-[100vh]">
+				<div className="flex justify-center items-center flex-wrap p-[10px] xs:p-[0px] min-h-[100vh]">
 					{services.map((item,idx)=>{
 						return(
 							<div className="bg-[#287bff] flex justify-center items-start w-[300px] h-[450px] m-[30px] rounded-[20px] rounded-b-[160px] bg-gradient-to-b from-[#ff2ae0] to-[#3bace2] card" key={idx}>

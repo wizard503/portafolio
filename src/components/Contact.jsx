@@ -8,10 +8,10 @@ function Contact() {
 				{/* text */}
 				<div className='flex-1 flex justify-start items-center'>
 					<div>
-						<h4 className='text-xl uppercase text-accent font-medium mb-2 tracking-wide'>
+						<h4 className='text-xl uppercase text-accent font-medium mb-2 tracking-wide xs:text-center'>
 							Ponte en contacto
 						</h4>
-						<h2 className='text-[45px] lg:text-[90px] leading-none mb-10'>
+						<h2 className='text-[45px] lg:text-[90px] leading-none mb-10 xs:text-center'>
 							Vamos a trabajar !juntos¡
 						</h2>
 					</div>
