@@ -10,7 +10,7 @@ function Services() {
 		return <Icon className='text-gray-500 w-[80px] h-[80px]'/>;
 	};
 	return (
-		<section className="lg:pt-20" id='services'>
+		<section className="pt-[14vh]" id='services'>
 			<div className="max-w-6xl mx-auto px-5 py-2 ">
 				<div className="text-center ">
 					<h2 className="h2 mb-4 text-accent">Mis Servicios</h2>

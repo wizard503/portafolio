@@ -10,8 +10,9 @@ import Img2 from '../assets/img/work/portfolio-img2.png';
 import Img3 from '../assets/img/work/portfolio-img3.png';
 
 //social icons
-import {SlSocialLinkedin,SlSocialTwitter} from 'react-icons/sl';
+import {SlSocialLinkedin} from 'react-icons/sl';
 import {VscGithub} from 'react-icons/vsc';
+import {RiTwitterXFill} from 'react-icons/ri';
 
 export const header={
 	logo:Logo,
@@ -78,7 +79,7 @@ export const social=[
 	},
 	{
 		name: 'GitHub',
-		icon: SlSocialTwitter,
+		icon: RiTwitterXFill,
 		href: 'https://twitter.com/josemdg12'
 	}
 

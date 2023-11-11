@@ -30,12 +30,12 @@ function Header() {
 		{/* nav - initial hidden -  show on desktop */}
 		<Nav/>
 		{/* btn - initial hidden -  show on desktop */}
-		<div className='hidden lg:flex space-x-4'>
+		<div className='hidden xl:flex space-x-4'>
 			<button className='btn btn-lg'>{btnWorkWme}</button>
 		</div>
 
 		{/* nav - menu botton -  hide on desktop */}
-		<div onClick={()=>setNavMobile(!navMobile)} className='lg:hidden abosolute right-4 top-0'>
+		<div onClick={()=>setNavMobile(!navMobile)} className='xl:hidden abosolute right-4 top-0'>
 			{ 
 			navMobile?
 			(<RiCloseFill className='text-white text-3xl cursor-pointer'/> ):

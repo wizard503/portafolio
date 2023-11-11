@@ -13,7 +13,7 @@ function About() {
 		threshold:0.5,
 	})
 	return (
-	<section className='section max-w-7xl pt-40' id='about' ref={ref}>
+	<section className='section max-w-7xl xs:pt-[5vh] lg:pt-[40vh] xl:pt-[30vh]' id='about' ref={ref}>
 		<div className="mx-auto xs:px-1">
 			<div className="flex flex-col gap-y-10 lg:flex-row">
 				{/* img */}

@@ -9,16 +9,16 @@ import cv from "../utils/cv/curriculum-jose-duran.pdf";
 
 function Banner() {
 	return (
-	<section className='min-h-[85vh] lg:min-h-[78vh] flex justify-around pt-[9em]' id='home'>
+	<section className='xs:min-h-[76vh] lg:min-h-[0vh] flex justify-around xs:pt-[9em] xl:pt-[10em]' id='home'>
 		<div>
 			<div className="flex flex-col lg:flex-row lg:items-center ">
 				{/* img */}
-				<div className="hidden lg:flex max-w-[320px] lg:max-w-[482px] ">
+				<div className="hidden xl:flex max-w-[320px] xl:max-w-[3202px] ">
 					<div className='bg-gradient-to-r from-fuchsia-500 to-pink-500/0 opacity-[66%] -rotate-45 w-[60vh] h-[60vh] rounded-full left-0 bottom-0'>
 					</div>
 				</div>
 				{/* text */}
-				<div className='flex-1 text-center font-quaternary lg:text-left lg:ml-36 right-0'>
+				<div className='flex-1 text-center font-quaternary xl:text-left xl:ml-36 right-0'>
 					<h1 
 					className='text-[55px] text-neutral-800 font-bold leading-[0.8] lg:text-[110px]'
 					>
@@ -48,7 +48,7 @@ function Banner() {
 					</p>
 					<br />
 				</div>
-				<div className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
+				<div className='flex max-w-max gap-x-6 items-center mb-12 mx-auto xl:mx-0'>
 					<a className='btn btn-lg flex items-center' href={cv}>Download CV</a>
 					<Link to='contact' className='text-gradient btn-link cursor-pointer'>Contact me</Link>
 				</div>

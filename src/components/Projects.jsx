@@ -5,9 +5,9 @@ import { workfirst,worksecond } from '../helpers/data'
 
 function Projects() {
 	return (
-	<section className='section mx-auto lg:pt-48 lg:mx-40' id='projects'>
+	<section className='section mx-auto xs:pt-[8vh] lg:pt-[35em] xl:pt-[11em] lg:mx-40' id='projects'>
 		<div className="container mx-auto">
-			<div className='flex flex-col lg:flex-row gap-x-10'>
+			<div className='flex flex-col xl:flex-row gap-x-10'>
 				<div className='flex-1 flex flex-col gap-y-10 mb-1	0 lg:mb-0'>
 					{/* text */}
 					<div className='justify-center'>

@@ -2,8 +2,8 @@ import React from 'react'
 
 function Contact() {
 	return (
-	<div className='section lg:pt-[12rem] lg:mt-[10vh] sm:pt-[10rem]' id='contact'>
-		<div className='container mx-auto lg:mx-40'>
+	<div className='section xs:pt-[4em] lg:pt-[10em] lg:mt-[25em]' id='contact'>
+		<div className='container mx-auto'>
 			<div className='flex flex-col lg:flex-row'>
 				{/* text */}
 				<div className='flex-1 flex justify-start items-center'>

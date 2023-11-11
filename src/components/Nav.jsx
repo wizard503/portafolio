@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 
 const Nav = () => {
 	return (
-		<nav className='hidden lg:flex'>
+		<nav className='hidden xl:flex'>
 			<ul className='flex text-black gap-x-8'>
 				{nav.map((item,idx)=>{
 					return (
