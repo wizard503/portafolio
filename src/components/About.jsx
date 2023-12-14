@@ -19,7 +19,13 @@ function About() {
 				{/* img */}
 				<div className='flex-1 bg-about bg-contain bg-no-repeat h-[440px] mix-blend-lighten bg-top'></div>
 				{/* text */}
-				<div className='flex-1 lg:text-left xs:text-center sm:text-center'>
+				<motion.div 
+				variants={fadeIn('left',0.3)}
+				initial='hidden'
+				whileInView={'show'}
+				viewport={{once:false,amount:0.7}}
+				className='flex-1 lg:text-left xs:text-center sm:text-center'
+				>
 					<h2 className='h2 text-accent'>
 						Acerca de mi
 					</h2>
@@ -65,7 +71,7 @@ function About() {
 								</div>
 						</div>
 					</div>
-				</div>
+				</motion.div>
 			</div>
 		</div>
 	</section>
