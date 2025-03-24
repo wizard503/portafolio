@@ -11,7 +11,7 @@ function NavMobile({navMobile}) {
 				{nav.map((item,idx)=>{
 					return (
 					<li key={idx}>
-						<Link className='text-white text-body-md cursor-pointer' to={item.to} >{item.name}</Link>
+						<Link className='text-[#f5f5f5] text-body-md cursor-pointer' to={item.to} >{item.name}</Link>
 					</li>
 					)
 				})}

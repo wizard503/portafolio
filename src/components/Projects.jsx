@@ -36,7 +36,7 @@ function Projects() {
 							initial='hidden'
 							whileInView={'show'}
 							viewport={{once:false,amount:0.7}}
-							className='group relative overflow-hidden border-2 border-white/50 rounded-xl' 
+							className='group relative overflow-hidden border-2 border-white/50 dark:border-slate-900 rounded-xl' 
 							key={idx}
 							>
 								{/* overlay */}
@@ -50,7 +50,7 @@ function Projects() {
 								</div>
 								{/* description */}
 								<div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-									<span className='text-white'>{item.desciption}</span>
+									<span className='text-[#f5f5f5]'>{item.desciption}</span>
 								</div>
 							</motion.div>
 						);
@@ -66,7 +66,7 @@ function Projects() {
 				>
 					{worksecond.map((item,idx)=>{
 						return (
-							<div className='group relative overflow-hidden border-2 border-white/50 rounded-xl' key={idx}>		
+							<div className='group relative overflow-hidden border-2 border-white/50 dark:border-slate-900 rounded-xl' key={idx}>		
 								{/* overlay */}
 								<div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'>
 								</div>
@@ -78,7 +78,7 @@ function Projects() {
 								</div>
 								{/* desciption */}
 								<div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-									<span className='text-white'>{item.desciption}</span>
+									<span className='text-[#f5f5f5]'>{item.desciption}</span>
 								</div>
 							</div>
 						);

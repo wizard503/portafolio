@@ -23,7 +23,7 @@ function Banner() {
 				viewport={{once:false,amount:0.7}}
 				className="hidden xl:flex max-w-[320px] xl:max-w-[3202px] "
 				>
-					<div className='bg-gradient-to-r from-fuchsia-500 to-pink-500/0 opacity-[66%] -rotate-45 w-[60vh] h-[60vh] rounded-full left-0 bottom-0'>
+					<div className='bg-gradient-to-r from-fuchsia-500 opacity-[66%] -rotate-45 w-[60vh] h-[60vh] rounded-full left-0 bottom-0'>
 					</div>
 				</motion.div>
 				{/* text */}
@@ -33,7 +33,7 @@ function Banner() {
 					initial='hidden'
 					whileInView={'show'}
 					viewport={{once:false,amount:0.7}}
-					className='text-[55px] text-neutral-800 font-bold leading-[0.8] lg:text-[110px]'
+					className='text-[55px] text-neutral-800 font-bold leading-[0.8] lg:text-[110px] dark:text-[#f5f5f5]'
 					>
 					JOSÉ <span>DURÁN</span>
 					</motion.h1>

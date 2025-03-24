@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className='max-w-[1440px] mx-auto overflow-hidden relative'>
+    <div className='mx-auto overflow-hidden relative dark:bg-[#101424] dark:text-[#f5f5f5]'>
       <Header/>
       <Banner/>
       <About/>
