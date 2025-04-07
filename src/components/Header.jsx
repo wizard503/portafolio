@@ -9,14 +9,15 @@ import NavMobile from './NavMobile'
 //import icons
 import {RiMenu4Fill, RiCloseFill} from 'react-icons/ri'
 import { HiMoon, HiSun } from "react-icons/hi";
-
+import { RiTranslate2 } from "react-icons/ri";
+import { useTranslation } from 'react-i18next'
 
 function Header() {
 	const getInitialTheme=()=>{
 		if (typeof window !== "undefined") {
 			const storedTheme = localStorage.getItem("theme");
 			if (storedTheme) return storedTheme;
-			return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+			return window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
 		}
 		return "light"
 	};
@@ -51,6 +52,12 @@ function Header() {
 		};
 	}, []);
 
+	const {t,i18n}=useTranslation(["translation"]);
+	const changeLanguage = () => {
+		const newLanguage = i18n.language === "es" ? "en" : "es";
+		i18n.changeLanguage(newLanguage);
+	};
+
 	//header state
 	const [isActive,setIsActive]=useState(false);
 	//nav mobile state
@@ -61,7 +68,7 @@ function Header() {
 		window.addEventListener('scroll',()=>{window.scrollY>80?setIsActive(true):setIsActive(false)})
 	})
 	//destructure header data
-	const {logo,btnWorkWme} = header
+	const {logo} = header
 	return (
 	<header className={`${isActive ? 'bg-white/60 dark:bg-[#101424] backdrop-blur-[4px] py-[16px] ':' bg-white dark:bg-[#101424] py-[20px] '} fixed max-w-[1440px] z-30 left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] transition-all duration-300`}>
 		{/* Logo */}
@@ -78,9 +85,12 @@ function Header() {
 				(<HiSun className='w-6 h-6 text-white'/>)
 				}
 			</button>
+			<button onClick={changeLanguage} className='pr-16 xs:pr-10'>
+				<RiTranslate2 />
+			</button>
 			{/* btn - initial hidden -  show on desktop */}
 			<div className='hidden xl:flex space-x-4'>
-				<button className='btn btn-lg'>{btnWorkWme}</button>
+				<button className='btn btn-lg'>{t("btnWorkWme")}</button>
 			</div>
 
 			{/* nav - menu botton -  hide on desktop */}

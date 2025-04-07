@@ -6,8 +6,11 @@ import { workfirst,worksecond } from '../helpers/data'
 import { delay, motion } from 'framer-motion';
 //variants
 import { fadeIn } from '../helpers/variants';
+import { useTranslation } from 'react-i18next'
 
 function Projects() {
+	const {t,i18n}=useTranslation(["translation"]);
+	
 	return (
 	<section className='section mx-auto xs:pt-[8vh] lg:pt-[35em] xl:pt-[11em] lg:mx-40' id='projects'>
 		<div className="container mx-auto">
@@ -22,11 +25,11 @@ function Projects() {
 					className='justify-center'
 					>
 						<h2 className='h2 leading-tight text-accent py-3 lg:text-start sm:text-center xs:text-center'>
-							Mis <br/>
-							Proyectos
+							{t("Projects.title1")} <br/>
+							{t("Projects.title2")}
 						</h2>
 						<p className='lg:max-w-sm lg:text-start sm:text-center xs:text-center mb-12'>
-						Explora mis proyectos destacados donde podras encontrar una muestra de mi experiencia y cómo combino tecnología y diseño para crear soluciones digitales funcionales y visualmente atractivas.
+							{t("Projects.description")}
 						</p>
 					</motion.div>
 					{workfirst.map((item,idx)=>{

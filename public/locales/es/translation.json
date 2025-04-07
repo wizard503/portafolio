@@ -1,0 +1,77 @@
+{
+	"btnWorkWme": "Trabaja conmigo",
+	"Menu":{
+		"Inicio":"Inicio",
+		"Sobre": "Sobre Mi",
+		"Servicios": "Servicios",
+		"Proyectos": "Proyectos",
+		"Contacto": "Contacto"
+		
+	},
+	"Iam":{
+		"i":"Soy",
+		"dev":"Desarrollador",
+		"designer":"Diseñador UI"
+	},
+	"Banner":{
+		"description":"Soy Ingeniero de Sistemas y me dedico al desarrollo web, poseo experiencia en desarrollo frontend y diseño de interfaces de usuario, me apasiona la tecnología y la programación.",
+		"button1":"Descargar CV",
+		"button2":"Contáctame"
+	},
+	"About":{
+		"title":"Acerca de mi",
+		"sub":"Hola",
+		"frase":{
+			"a":"Cada",
+			"b":"linea",
+			"c":"de",
+			"d":"código",
+			"e":"es un trazo",
+			"f":"en el",
+			"g":"lienzo digital"
+		},
+		"description":{
+			"paraph1":"Me gusta leer y me apasiona el arte, especialmente el dibujo y la pintura, me considero alguien apasionado y soñador aunque algo introvertido. Disfruto de la tranquilidad pero aprecio una buena compañia y una buena conversacion.",
+			"paraph2":"Tengo profundo interes por el universo, me encanta observar el cielo nocturno asi como los rayos en medio de una tormeta. Soy selectivo en mis relaciones personales,amo la lluvia y mi bebida favorita es el café.",
+			"paraph3":"Además, me esfuerzo por hacer las cosas de la mejor manera posible, mostrando paciencia y dedicación en todo lo que hago."
+		},
+		"year1":"Años de",
+		"year2":"Experiencia",
+		"projects1":"Proyectos",
+		"projects2":"Realizados",
+		"sites1":"Sitios Desplegados",
+		"sites2":"Completamente"
+	},
+	"Services":{
+		"title":"Mis Servicios",
+		"description":"Ofrezco soluciones digitales personalizadas que combinan funcionalidad y diseño atractivo. A través de mi experiencia en desarrollo frontend y diseño de interfaces de usuario, puedo ayudarte a destacar en línea. Explora mis servicios a continuación y contáctame para discutir cómo puedo ayudarte.",
+		"list":{
+			"serv1":{
+				"title":"Desarrollo",
+				"description":"Sitios web creados para fortalecer la marca de su empresa al tiempo que garantiza la facilidad de uso y la simplicidad para su audiencia brindando una experiencia optima que logre sus objetivos comerciales."
+			},
+			"serv2":{
+				"title":"Mantenimiento y optimizacion",
+				"description":"Porque un buen sitio no basta, se debe optimizar el tiempo de carga, la eficiencia del código y la experiencia del usuario. Ademas se debe mantener sus sitios web y aplicaciones actualizados."
+			},
+			"serv3":{
+				"title":"Diseño Creativo",
+				"description":"Conozco la importancia del diseño web y puedo ayudarte a crear un sitio web que te encantará, capaz de adaptarse a todos tus dispositivos."
+			}
+		}
+	},
+	"Projects":{
+		"title1":"Mis",
+		"title2":"Proyectos",
+		"description":"Explora mis proyectos destacados donde podras encontrar una muestra de mi experiencia y cómo combino tecnología y diseño para crear soluciones digitales funcionales y visualmente atractivas."
+	},
+	"Contact":{
+		"title": "Ponte en contacto",
+		"description":"Vamos a trabajar !juntos¡",
+		"place":{
+			"a":"Tú nombre",
+			"b":"Tú correo electrónico",
+			"c":"Tú mensaje"
+		}
+	}
+}

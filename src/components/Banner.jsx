@@ -9,8 +9,12 @@ import cv from "../utils/cv/curriculum-jose-duran.pdf";
 import { motion } from 'framer-motion';
 //variants
 import { fadeIn } from '../helpers/variants';
+import { useTranslation } from 'react-i18next'
 
 function Banner() {
+	const {t,i18n}=useTranslation(["translation"]);
+	const Spline = React.lazy(() => import('@splinetool/react-spline'));
+
 	return (
 	<section className='xs:min-h-[76vh] lg:min-h-[0vh] flex justify-around xs:pt-[9em] xl:pt-[10em]' id='home'>
 		<div>
@@ -27,7 +31,7 @@ function Banner() {
 					</div>
 				</motion.div>
 				{/* text */}
-				<div className='flex-1 text-center font-quaternary xl:text-left xl:ml-36 right-0'>
+				<div className='flex-1 text-center font-quaternary xl:text-left xl:ml-20 right-0'>
 					<motion.h1 
 					variants={fadeIn('up',0.3)}
 					initial='hidden'
@@ -44,12 +48,12 @@ function Banner() {
 					viewport={{once:false,amount:0.7}}
 					className='mb-6 text-[36px] lg:text-[60px] font-quaternary font-semibold uppercase leading-[1]'
 					>
-					<span className='text-cyan-400 mr-4'>I am a </span>
+					<span className='text-cyan-400 mr-4'>{t('Iam.i')}</span>
 					<TypeAnimation 
 					sequence={[
-						'Developer',
+						`${t('Iam.dev')}`,
 						2000,
-						'Designer UI',
+						`${t('Iam.designer')}`,
 						2000,
 					]}
 					speed={50}
@@ -68,7 +72,7 @@ function Banner() {
 					
 					<p className='mb-8 max-w-lg mx-auto lg:mx-0' >
 					{/* description */}
-					Soy Ingeniero de Sistemas y me dedico al desarrollo web, poseo experiencia en desarrollo frontend y diseño de interfaces de usuario, me apasiona la tecnología y la programación.
+					{t('Banner.description')}
 					</p>
 					<br />
 				</motion.div>
@@ -79,8 +83,8 @@ function Banner() {
 				viewport={{once:false,amount:0.7}}
 				className='flex max-w-max gap-x-6 items-center mb-12 mx-auto xl:mx-0'
 				>
-					<a className='btn btn-lg flex items-center' href={cv}>Download CV</a>
-					<Link to='contact' className='text-gradient btn-link cursor-pointer'>Contact me</Link>
+					<a className='btn btn-lg flex items-center' href={cv}>{t('Banner.button1')}</a>
+					<Link to='contact' className='text-gradient btn-link cursor-pointer'>{t('Banner.button2')}</Link>
 				</motion.div>
 				{/* resume skills */}
 

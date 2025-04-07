@@ -6,9 +6,10 @@ import Services from './components/Services'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import { Suspense } from 'react'
 
-function App() {
-  return (
+function Welcome(){
+  return(
     <div className='mx-auto overflow-hidden relative dark:bg-[#101424] dark:text-[#f5f5f5]'>
       <Header/>
       <Banner/>
@@ -19,6 +20,13 @@ function App() {
       <Footer/>
       {/*<div classNamVscGithube='h-[4000px]'></div>*/}
     </div>
+  )
+}
+function App() {
+  return (
+    <Suspense fallback="Cargando Traducciones">
+      <Welcome/>
+    </Suspense>
   )
 }
 

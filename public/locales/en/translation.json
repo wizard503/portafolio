@@ -1,0 +1,77 @@
+{
+	"btnWorkWme":"Work with me",
+	"Menu":{
+		"Inicio":"Home",
+		"Sobre": "About Me",
+		"Servicios": "Services",
+		"Proyectos": "Projects",
+		"Contacto": "Contact"
+		
+	},
+	"Iam": {
+		"i": "I am a",
+		"dev": "Developer",
+		"designer": "Designer UI"
+	},
+	"Banner": {
+		"description": "I'm a Systems Engineer focused on web development. I have experience in front-end development and user interface design. I'm passionate about technology and programming.",
+		"button1": "Download CV",
+		"button2": "Contact me"
+	},
+	"About": {
+		"title": "About me",
+		"sub": "Hi",
+		"frase": {
+			"a": "Each",
+			"b": "line",
+			"c": "of",
+			"d": "code",
+			"e": "is a stroke",
+			"f": "on the",
+			"g": "digital canvas"
+		},
+		"description": {
+			"paraph1": "I like to read and I'm passionate about art, especially drawing and painting. I consider myself passionate and dreamy, although somewhat introverted. I enjoy quiet time, but I appreciate good company and good conversation.",
+			"paraph2": "I have a deep interest in the universe. I love observing the night sky and lightning in a storm. I am selective in my personal relationships. I love the rain, and my favorite drink is coffee.",
+			"paraph3": "Additionally, I strive to do things in the best possible way, showing patience and dedication in everything I do."
+		},
+		"year1": "Years of",
+		"year2": "experience",
+		"projects1": "Completed",
+		"projects2": "Projects",
+		"sites1": "Fully Deployed",
+		"sites2": "Sites"
+	},
+	"Services": {
+		"title":"My Services",
+		"description": "I offer customized digital solutions that combine functionality and attractive design. Through my experience in front-end development and user interface design, I can help you stand out online. Explore my services below and contact me to discuss how I can help you.",
+		"list": {
+			"serv1": {
+				"title": "Development",
+				"description": "Websites created to strengthen your company's brand while ensuring ease of use and simplicity for your audience, providing an optimal experience that achieves your business goals."
+			},
+			"serv2": {
+				"title": "Maintenance and Optimization",
+				"description": "Because a good website isn't enough, you must optimize load time, code efficiency, and user experience. In addition, your websites and applications must be kept up-to-date."
+			},
+			"serv3": {
+				"title": "Creative Design",
+				"description": "I understand the importance of web design and can help you create a website you'll love, responsive to all your devices."
+			}
+		}
+	},
+	"Projects":{
+		"title1":"My",
+		"title2":"Projects",
+		"description":"Explore my featured projects where you can find a sample of my experience and how I combine technology and design to create functional and visually compelling digital solutions."
+	},
+	"Contact":{
+		"title": "Get in touch",
+		"description":"Let's work together!",
+		"place":{
+			"a":"Your name",
+			"b":"Your email",
+			"c":"Your message"
+		}
+	}
+}

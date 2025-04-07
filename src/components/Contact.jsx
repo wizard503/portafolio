@@ -4,8 +4,11 @@ import { motion } from 'framer-motion'
 //variants
 import { fadeIn } from '../helpers/variants'
 import Swal from 'sweetalert2'
+import { useTranslation } from 'react-i18next'
 
 function Contact() {
+	const {t,i18n}=useTranslation(["translation"]);
+	
 	const handleSubmit = async (event)=> {
 		event.preventDefault();
 		
@@ -94,10 +97,10 @@ function Contact() {
 				>
 					<div>
 						<h4 className='text-xl uppercase text-accent font-medium mb-2 tracking-wide xs:text-center'>
-							Ponte en contacto
+							{t("Contact.title")}
 						</h4>
 						<h2 className='text-[45px] lg:text-[90px] leading-none mb-10 xs:text-center'>
-							Vamos a trabajar !juntos¡
+							{t("Contact.description")}
 						</h2>
 					</div>
 				</motion.div>
@@ -113,9 +116,9 @@ function Contact() {
 				onSubmit={handleSubmit}
 				>
 					<input type="hidden" name="access_key" value="abcf4c1f-2801-44f6-82c3-2d837986765b"/>
-					<input className='bg-transparent border-b py-3 outline-none w-full focus:border-accent transition-all' type="text" name='name' placeholder='Tú nombre' required/>
-					<input className='bg-transparent border-b py-3 outline-none w-full focus:border-accent transition-all' type="email" name='email' placeholder='Tú correo electrónico' required/>
-					<textarea className='bg-transparent border-b py-12 focus:outline-none w-full focus:border-accent transition-all resize-none mb-9' name="message" placeholder='Tú mensaje' required></textarea>				
+					<input className='bg-transparent border-b py-3 outline-none w-full focus:border-accent transition-all' type="text" name='name' placeholder={t("Contact.place.a")} required/>
+					<input className='bg-transparent border-b py-3 outline-none w-full focus:border-accent transition-all' type="email" name='email' placeholder={t("Contact.place.b")} required/>
+					<textarea className='bg-transparent border-b py-12 focus:outline-none w-full focus:border-accent transition-all resize-none mb-9' name="message" placeholder={t("Contact.place.c")} required></textarea>				
 					<button className='btn btn-lg' type='submit'>Enviar mensaje</button>
 				</motion.form>
 			</div>
