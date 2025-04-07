@@ -72,6 +72,7 @@
 			"a":"Your name",
 			"b":"Your email",
 			"c":"Your message"
-		}
+		},
+		"button":"Send Message"
 	}
 }

@@ -119,7 +119,7 @@ function Contact() {
 					<input className='bg-transparent border-b py-3 outline-none w-full focus:border-accent transition-all' type="text" name='name' placeholder={t("Contact.place.a")} required/>
 					<input className='bg-transparent border-b py-3 outline-none w-full focus:border-accent transition-all' type="email" name='email' placeholder={t("Contact.place.b")} required/>
 					<textarea className='bg-transparent border-b py-12 focus:outline-none w-full focus:border-accent transition-all resize-none mb-9' name="message" placeholder={t("Contact.place.c")} required></textarea>				
-					<button className='btn btn-lg' type='submit'>Enviar mensaje</button>
+					<button className='btn btn-lg' type='submit'>{t("Contact.button")}</button>
 				</motion.form>
 			</div>
 		</div>
